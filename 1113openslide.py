@@ -41,7 +41,7 @@ region = (0, 0)
 level = 2
 size = (2000, 2000)
 image = slide.read_region(region, level, size)
-plt.figure(figsize=(20, 20))
+plt.figure(figsize=(20, 20))#設置繪圖的圖形大小#英吋
 plt.imshow(image)
 
 thumbnail_size = (500, 500) #指定縮略圖的尺寸
